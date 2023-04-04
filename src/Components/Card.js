@@ -6,7 +6,7 @@ import {toast} from 'react-toastify';
 function Card(props){
     let course = props.course;  
     let likedCourses = props.likedCourses;
-    let setLikedCourses = props.setlikedCourses;
+    let setLikedCourses = props.setLikedCourses;
     
 
     function clickHandler(){
